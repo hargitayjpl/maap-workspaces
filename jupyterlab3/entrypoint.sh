@@ -55,7 +55,7 @@ for endpoint in endpoints:
 END
 }
 
-for i in {1..300}
+for i in {1..20}
 do
     echo "Attempt $i to construct PREVIEW_URL"
     PREVIEW_URL=$(get_workspace_url_prefix "$CHE_WORKSPACE_NAMESPACE-che") # Che 7 OPS configuration where the (actual) namespace is "<username>-che"
