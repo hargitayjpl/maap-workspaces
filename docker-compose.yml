@@ -1,0 +1,7 @@
+version: "3"
+services:
+  maap-workspace:
+    image: maap-ui-jupyterlab3:latest
+    container_name: maap-workspace
+    ports:
+      - 3100:3100
