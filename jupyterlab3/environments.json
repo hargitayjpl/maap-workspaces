@@ -1,11 +1,11 @@
 [    
     {
         "environment": "dit",
-        "ade_server": "0.0.0.0:5000",
-        "api_server": "0.0.0.0:5000",
-        "auth_server": "0.0.0.0:5000",
-        "mas_server": "0.0.0.0:5000",
-        "edsc_server": "0.0.0.0:5000",
+        "ade_server": "ade.dit.maap-project.org",
+        "api_server": "0.0.0.0:5050",
+        "auth_server": "auth.dit.maap-project.org",
+        "mas_server": "repo.dit.maap-project.org",
+        "edsc_server": "ade.dit.maap-project.org:30052",
         "workspace_bucket": "mybucket",
         "kibana_url": "https://35.88.169.231/metrics/goto/4f1115df1b6563782292fb1f75676f95",
         "default_host": true
